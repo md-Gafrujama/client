@@ -1,26 +1,13 @@
-To dynamically include an image from a Google Drive link in your `README.md` file, you need to use the direct image URL. Google Drive links are not directly embeddable in Markdown, so you’ll need to use a workaround. Here's how you can do it:
 
----
 
-### Steps to Embed the Image:
-1. **Get the Direct Image URL**:
-   - Upload the image to a service like [Imgur](https://imgur.com/) or [Postimages](https://postimages.org/).
-   - Alternatively, you can use a tool like [Google Drive Direct Link Generator](https://sites.google.com/site/gdocs2direct/) to generate a direct link to your Google Drive file.
-
-2. **Insert the Image in Markdown**:
-   Use the following Markdown syntax to embed the image:
-   ```markdown
-   ![Description of the image](direct_image_url)
-   ```
-
----
-
-### Updated `README.md` File with Embedded Image
-
-Here’s your updated `README.md` file with the image dynamically included:
-
-```markdown
 # E-Commerce Website Client
+
+## Screenshot
+
+![E-Commerce Website Screenshot](https://drive.google.com/uc?export=view&id=1YgrVpuY8JRyXc1UNii2HPAN4vGeVdV5q)
+
+---
+
 
 This repository contains the client-side code for an e-commerce website built using modern web technologies. The client is hosted on Vercel at [https://client-8r57.vercel.app/](https://client-8r57.vercel.app/) and integrates with the backend API for product management, user authentication, order processing, and more.
 
@@ -242,12 +229,3 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
-
-## Screenshot
-
-![E-Commerce Website Screenshot](https://drive.google.com/uc?export=view&id=1YgrVpuY8JRyXc1UNii2HPAN4vGeVdV5q)
-
----
-
-This `README.md` file now dynamically includes the image from your Google Drive link. Let me know if you need further assistance!
